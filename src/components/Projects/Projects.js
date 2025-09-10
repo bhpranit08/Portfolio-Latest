@@ -7,6 +7,7 @@ import aaryatm from "../../Assets/New Projects/aaryatm.png"
 import chatApp from "../../Assets/New Projects/chatting-app.png"
 import ims from "../../Assets/New Projects/ims.png"
 import memoryGame from "../../Assets/New Projects/memory-game.png"
+import ConnectAble from "../../Assets/New Projects/ConnectAble.png"
 
 function Projects() {
   return (
@@ -37,6 +38,17 @@ function Projects() {
               title="Aarya TM website"
               description="This is a website for AaryaTM, a startup which provides solutions for Hotels, Travel Agencies and Restaurants."
               demoLink="https://aaryatm.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ConnectAble}
+              isBlog={false}
+              title="ConnectAble"
+              description="An app specifically made for disabled people to find jobs and interact with commmunities."
+              ghLink="https://github.com/bhpranit08/ConnectAble"
+              demoLink="https://connect-able-r9ik93srl-darkwood23s-projects.vercel.app/"
             />
           </Col>
 
